@@ -1,0 +1,38 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1732297233
+::res://Scenes/::1732269602
+::res://Scenes/Level Scenes/::1732297103
+Level1.tscn::PackedScene::4018512476120245625::1732297103::0::1::::<><>::uid://uo0mbu6ain7y::::res://Sprites/grass.png<>uid://dklfvrgkhengk::::res://Sprites/background.png<>uid://b1ki7402wqtmn::::res://Sprites/traps.png<>uid://jabost5mul7::::res://Sprites/Thorn1.png<>uid://tabyk7ayfbcp::::res://Sprites/Jumper.png<>res://Scripts/jumper_area.gd<>uid://dv8w6h326feen::::res://Scenes/Other Scenes/player.tscn<>res://Scripts/kill_zone.gd<>uid://db3mjpgr7fhrv::::res://Scenes/Other Scenes/climbing_area.tscn
+level2.tscn::PackedScene::749867742871158360::1732293405::0::1::::<><>::uid://uo0mbu6ain7y::::res://Sprites/grass.png<>uid://b1ki7402wqtmn::::res://Sprites/traps.png<>uid://dklfvrgkhengk::::res://Sprites/background.png<>uid://dv8w6h326feen::::res://Scenes/Other Scenes/player.tscn<>uid://bxj3s0v5rtp8v::::res://Sprites/RotarySaw.png
+Level3.tscn::PackedScene::7447625630232079715::1732293405::0::1::::<><>::uid://uo0mbu6ain7y::::res://Sprites/grass.png<>uid://b1ki7402wqtmn::::res://Sprites/traps.png<>uid://dklfvrgkhengk::::res://Sprites/background.png<>uid://bxj3s0v5rtp8v::::res://Sprites/RotarySaw.png
+Level5.tscn::PackedScene::721741441468047622::1732293405::0::1::::<><>::uid://uo0mbu6ain7y::::res://Sprites/grass.png<>uid://b1ki7402wqtmn::::res://Sprites/traps.png<>uid://dklfvrgkhengk::::res://Sprites/background.png<>uid://bxj3s0v5rtp8v::::res://Sprites/RotarySaw.png
+Level6.tscn::PackedScene::5481331924673475673::1732297103::0::1::::<><>::uid://dlylqt7fmoo1l::::res://Sprites/kristal.png<>uid://cm5i6x7pj65rp::::res://Sprites/iceBackground.png<>uid://b1ki7402wqtmn::::res://Sprites/traps.png<>uid://dv8w6h326feen::::res://Scenes/Other Scenes/player.tscn<>uid://cgg1mkeybhkbg::::res://Scenes/Other Scenes/platform.tscn<>uid://db3mjpgr7fhrv::::res://Scenes/Other Scenes/climbing_area.tscn<>uid://jabost5mul7::::res://Sprites/Thorn1.png<>res://Scripts/kill_zone.gd
+static_body_2d.gd::GDScript::-1::1732295742::0::1::::<>StaticBody2D<>::
+::res://Scenes/Other Scenes/::1732297103
+climbing_area.tscn::PackedScene::7287998945823799739::1732272974::0::1::::<><>::res://Scripts/climbing.gd
+moving_trap.tscn::PackedScene::4916719309785758078::1732297103::0::1::::<><>::
+platform.tscn::PackedScene::5207961299582334232::1732279198::0::1::::<><>::uid://dmjdhaofuh8h6::::res://Sprites/platform.png
+player.tscn::PackedScene::8702743779000228637::1732297103::0::1::::<><>::res://Scripts/player.gd<>uid://dk7arnipnghp::::res://Sprites/character-Sheet.png
+::res://Scripts/::1732295362
+climbing.gd::GDScript::-1::1732272942::0::1::::<>Area2D<>::
+GlobalVariables.gd::GDScript::-1::1732212652::0::1::::<>Node<>::
+jumper.gd::GDScript::-1::1731939788::0::1::::<>Sprite2D<>::
+jumper_area.gd::GDScript::-1::1731939788::0::1::::<>Area2D<>::
+kill_zone.gd::GDScript::-1::1732280483::0::1::::<>Area2D<>::
+moving_trap.gd::GDScript::-1::1732295362::0::1::::<>CharacterBody2D<>::
+player.gd::GDScript::-1::1732273632::0::1::::<>CharacterBody2D<>::
+::res://Sprites/::1732278709
+background.png::CompressedTexture2D::7884200632019779674::1731939788::1732278709::1::::<><>::
+character-Sheet.png::CompressedTexture2D::233154165586678189::1731939788::1731947562::1::::<><>::
+flag_animation.png::CompressedTexture2D::2928180945500103040::1731939788::1731947562::1::::<><>::
+grass.png::CompressedTexture2D::1434217600491772076::1731939788::1731947562::1::::<><>::
+iceBackground.png::CompressedTexture2D::5677581177383174193::1731950428::1731950497::1::::<><>::
+icon.svg::CompressedTexture2D::8408157587874497773::1731939788::1731947562::1::::<><>::
+Jumper.png::CompressedTexture2D::1333692179868611839::1731939788::1731947562::1::::<><>::
+kristal.png::CompressedTexture2D::7981581904439177991::1732278459::1732278709::1::::<><>::
+magma.png::CompressedTexture2D::7649242759956093248::1732215582::1732215687::1::::<><>::
+platform.png::CompressedTexture2D::8020302247939342633::1732276260::1732276321::1::::<><>::
+RotarySaw.png::CompressedTexture2D::4021077054153325019::1731939788::1731947562::1::::<><>::
+taslarr.png::CompressedTexture2D::6011702226819634530::1731939788::1731947562::1::::<><>::
+Thorn1.png::CompressedTexture2D::18581949617682694::1731939788::1731947562::1::::<><>::
+traps.png::CompressedTexture2D::4232518840223700849::1731939788::1731947562::1::::<><>::

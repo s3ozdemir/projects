@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bq1kb4t3ufycj"]
+
+[ext_resource type="Script" path="res://Scripts/kill_zone.gd" id="1_eonwb"]
+[ext_resource type="Texture2D" uid="uid://jabost5mul7" path="res://Sprites/Thorn1.png" id="2_tkxgh"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_i6yj7"]
+radius = 4.0
+
+[node name="moving_trap" type="Area2D"]
+script = ExtResource("1_eonwb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_i6yj7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_tkxgh")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

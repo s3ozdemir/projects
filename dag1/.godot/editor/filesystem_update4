@@ -1,0 +1,8 @@
+res://Scenes/Level Scenes/Level1.tscn
+res://Scenes/Other Scenes/moving_trap.tscn
+res://Scenes/Other Scenes/player.tscn
+res://Scenes/Level Scenes/Level6.tscn
+res://Scenes/Level Scenes/area_2d.gd
+res://Scripts/climbing.gd
+res://Scripts/player.gd
+res://Scripts/kill_zone.gd
