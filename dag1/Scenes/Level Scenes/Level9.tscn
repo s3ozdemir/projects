@@ -1,0 +1,112 @@
+[gd_scene load_steps=12 format=3 uid="uid://bd1xhif708wkt"]
+
+[ext_resource type="Texture2D" uid="uid://dlylqt7fmoo1l" path="res://Sprites/kristal.png" id="1_obrma"]
+[ext_resource type="Texture2D" uid="uid://cm5i6x7pj65rp" path="res://Sprites/iceBackground.png" id="2_mjuia"]
+[ext_resource type="Texture2D" uid="uid://b1ki7402wqtmn" path="res://Sprites/traps.png" id="3_82ojc"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kfvkf"]
+texture = ExtResource("1_obrma")
+0:1/0 = 0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:1/0 = 0
+1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:1/0 = 0
+2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:1/0 = 0
+3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:2/0 = 0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:2/0 = 0
+1:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:2/0 = 0
+2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:2/0 = 0
+3:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:2/0 = 0
+4:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:2/0 = 0
+5:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:3/0 = 0
+0:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:3/0 = 0
+1:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:3/0 = 0
+2:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:3/0 = 0
+3:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:3/0 = 0
+4:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:3/0 = 0
+5:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:4/0 = 0
+3:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:4/0 = 0
+4:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:4/0 = 0
+5:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:5/0 = 0
+3:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+6:2/0 = 0
+6:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+6:3/0 = 0
+6:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+7:3/0 = 0
+7:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+7:2/0 = 0
+7:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSet" id="TileSet_lcyuh"]
+physics_layer_0/collision_layer = 3
+physics_layer_0/collision_mask = 3
+sources/0 = SubResource("TileSetAtlasSource_kfvkf")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mckbh"]
+texture = ExtResource("1_obrma")
+6:0/0 = 0
+6:1/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_3uudx"]
+sources/0 = SubResource("TileSetAtlasSource_mckbh")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rk23x"]
+texture = ExtResource("2_mjuia")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_dlc78"]
+sources/0 = SubResource("TileSetAtlasSource_rk23x")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8if60"]
+texture = ExtResource("3_82ojc")
+0:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:0/0 = 0
+2:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_qw5lj"]
+sources/0 = SubResource("TileSetAtlasSource_8if60")
+
+[node name="Level9" type="Node2D"]
+
+[node name="Main_Tiles" type="Node" parent="."]
+
+[node name="Blocks" type="TileMapLayer" parent="Main_Tiles"]
+rotation = 0.000754272
+tile_set = SubResource("TileSet_lcyuh")
+
+[node name="Decorations" type="TileMapLayer" parent="Main_Tiles"]
+z_index = 5
+tile_set = SubResource("TileSet_3uudx")
+
+[node name="Background" type="TileMapLayer" parent="Main_Tiles"]
+z_index = -1
+tile_set = SubResource("TileSet_dlc78")
+
+[node name="Traps" type="TileMapLayer" parent="Main_Tiles"]
+tile_set = SubResource("TileSet_qw5lj")
