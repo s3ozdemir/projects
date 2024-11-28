@@ -1,41 +1,47 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1732301181
-::res://Scenes/::1732269602
-::res://Scenes/Level Scenes/::1732301139
-Level1.tscn::PackedScene::4018512476120245625::1732297847::0::1::::<><>::uid://uo0mbu6ain7y::::res://Sprites/grass.png<>uid://dklfvrgkhengk::::res://Sprites/background.png<>uid://b1ki7402wqtmn::::res://Sprites/traps.png<>uid://jabost5mul7::::res://Sprites/Thorn1.png<>uid://tabyk7ayfbcp::::res://Sprites/Jumper.png<>res://Scripts/jumper_area.gd<>uid://dv8w6h326feen::::res://Scenes/Other Scenes/player.tscn<>res://Scripts/kill_zone.gd<>uid://db3mjpgr7fhrv::::res://Scenes/Other Scenes/climbing_area.tscn
-level2.tscn::PackedScene::749867742871158360::1732293405::0::1::::<><>::uid://uo0mbu6ain7y::::res://Sprites/grass.png<>uid://b1ki7402wqtmn::::res://Sprites/traps.png<>uid://dklfvrgkhengk::::res://Sprites/background.png<>uid://dv8w6h326feen::::res://Scenes/Other Scenes/player.tscn<>uid://bxj3s0v5rtp8v::::res://Sprites/RotarySaw.png
-Level3.tscn::PackedScene::7447625630232079715::1732293405::0::1::::<><>::uid://uo0mbu6ain7y::::res://Sprites/grass.png<>uid://b1ki7402wqtmn::::res://Sprites/traps.png<>uid://dklfvrgkhengk::::res://Sprites/background.png<>uid://bxj3s0v5rtp8v::::res://Sprites/RotarySaw.png
-Level4.tscn::PackedScene::5481331924673475673::1732297376::0::1::::<><>::uid://dlylqt7fmoo1l::::res://Sprites/kristal.png<>uid://cm5i6x7pj65rp::::res://Sprites/iceBackground.png<>uid://b1ki7402wqtmn::::res://Sprites/traps.png<>uid://dv8w6h326feen::::res://Scenes/Other Scenes/player.tscn<>uid://cgg1mkeybhkbg::::res://Scenes/Other Scenes/platform.tscn<>uid://db3mjpgr7fhrv::::res://Scenes/Other Scenes/climbing_area.tscn<>uid://jabost5mul7::::res://Sprites/Thorn1.png<>res://Scenes/Level Scenes/area_2d.gd
+::res://::1732800007
+::res://Scenes/::1732554653
+::res://Scenes/Level Scenes/::1732800046
+Level1.tscn::PackedScene::4018512476120245625::1732388962::0::1::::<><>::uid://dvrfrwugogysj::::res://Sprites/grass.png<>uid://c4ci8pafbr8yc::::res://Sprites/background.png<>uid://bv8en2s4iq05::::res://Sprites/traps.png<>uid://bj8prwf7vtbel::::res://Sprites/Thorn1.png<>uid://cmccjuedjdsvh::::res://Sprites/Jumper.png<>res://Scripts/jumper_area.gd<>uid://dv8w6h326feen::::res://Scenes/Other Scenes/player.tscn<>res://Scripts/kill_zone.gd<>uid://db3mjpgr7fhrv::::res://Scenes/Other Scenes/climbing_area.tscn
+level2.tscn::PackedScene::749867742871158360::1732554653::0::1::::<><>::uid://ctdvd7mj7uwsf::::res://Sprites/grass.png<>uid://b44nf8fhfnhy0::::res://Sprites/traps.png<>uid://ce5e4li6n4djm::::res://Sprites/background.png<>uid://dv8w6h326feen::::res://Scenes/Other Scenes/player.tscn<>uid://cmevqgpn7fi3q::::res://Scenes/Other Scenes/rotary_saw.tscn<>uid://2uw68o6dkv85::::res://Scenes/Other Scenes/kill_zone.tscn<>res://Scenes/Other Scenes/Cimbing_area.tscn
+Level3.tscn::PackedScene::7447625630232079715::1732548826::0::1::::<><>::uid://ctdvd7mj7uwsf::::res://Sprites/grass.png<>uid://b44nf8fhfnhy0::::res://Sprites/traps.png<>uid://ce5e4li6n4djm::::res://Sprites/background.png<>uid://bppseiwbq6yle::::res://Sprites/RotarySaw.png
+Level4.tscn::PackedScene::943878368158106804::1732549158::0::1::::<><>::uid://ctdvd7mj7uwsf::::res://Sprites/grass.png<>uid://b44nf8fhfnhy0::::res://Sprites/traps.png<>uid://ce5e4li6n4djm::::res://Sprites/background.png<>uid://bppseiwbq6yle::::res://Sprites/RotarySaw.png
 Level5.tscn::PackedScene::721741441468047622::1732293405::0::1::::<><>::uid://uo0mbu6ain7y::::res://Sprites/grass.png<>uid://b1ki7402wqtmn::::res://Sprites/traps.png<>uid://dklfvrgkhengk::::res://Sprites/background.png<>uid://bxj3s0v5rtp8v::::res://Sprites/RotarySaw.png
-Level6.tscn::PackedScene::5481331924673475673::1732300846::0::1::::<><>::uid://dlylqt7fmoo1l::::res://Sprites/kristal.png<>uid://cm5i6x7pj65rp::::res://Sprites/iceBackground.png<>uid://b1ki7402wqtmn::::res://Sprites/traps.png<>uid://dv8w6h326feen::::res://Scenes/Other Scenes/player.tscn<>uid://cgg1mkeybhkbg::::res://Scenes/Other Scenes/platform.tscn<>uid://db3mjpgr7fhrv::::res://Scenes/Other Scenes/climbing_area.tscn<>uid://bq1kb4t3ufycj::::res://Scenes/Other Scenes/moving_trap.tscn
+Level6.tscn::PackedScene::5481331924673475673::1732388962::0::1::::<><>::uid://cniituillpwpd::::res://Sprites/kristal.png<>uid://cm5i6x7pj65rp::::res://Sprites/iceBackground.png<>uid://bv8en2s4iq05::::res://Sprites/traps.png<>uid://dv8w6h326feen::::res://Scenes/Other Scenes/player.tscn<>uid://cgg1mkeybhkbg::::res://Scenes/Other Scenes/platform.tscn<>uid://db3mjpgr7fhrv::::res://Scenes/Other Scenes/climbing_area.tscn<>uid://bq1kb4t3ufycj::::res://Scenes/Other Scenes/moving_trap.tscn
 Level7.tscn::PackedScene::8759919815092221967::1732300852::0::1::::<><>::uid://dlylqt7fmoo1l::::res://Sprites/kristal.png<>uid://cm5i6x7pj65rp::::res://Sprites/iceBackground.png<>uid://b1ki7402wqtmn::::res://Sprites/traps.png
 Level8.tscn::PackedScene::8181433224204781111::1732300864::0::1::::<><>::uid://dlylqt7fmoo1l::::res://Sprites/kristal.png<>uid://cm5i6x7pj65rp::::res://Sprites/iceBackground.png<>uid://b1ki7402wqtmn::::res://Sprites/traps.png
 Level9.tscn::PackedScene::2652070457003203351::1732300863::0::1::::<><>::uid://dlylqt7fmoo1l::::res://Sprites/kristal.png<>uid://cm5i6x7pj65rp::::res://Sprites/iceBackground.png<>uid://b1ki7402wqtmn::::res://Sprites/traps.png
 Level10.tscn::PackedScene::3391991224127346776::1732300862::0::1::::<><>::uid://dlylqt7fmoo1l::::res://Sprites/kristal.png<>uid://cm5i6x7pj65rp::::res://Sprites/iceBackground.png<>uid://b1ki7402wqtmn::::res://Sprites/traps.png
-::res://Scenes/Other Scenes/::1732298857
+Level11.tscn::PackedScene::3251127567930661463::1732799924::0::1::::<><>::uid://42qtym42cpty::::res://Sprites/magma.png<>uid://ctt3sfs1l0s6d::::res://Sprites/Magma_Background.png<>uid://b44nf8fhfnhy0::::res://Sprites/traps.png<>uid://dv8w6h326feen::::res://Scenes/Other Scenes/player.tscn<>uid://c7qlag37v28s4::::res://Scenes/Other Scenes/moving_platform.tscn<>uid://bq1kb4t3ufycj::::res://Scenes/Other Scenes/moving_trap.tscn<>uid://2uw68o6dkv85::::res://Scenes/Other Scenes/kill_zone.tscn
+::res://Scenes/Other Scenes/::1732799925
 climbing_area.tscn::PackedScene::7287998945823799739::1732272974::0::1::::<><>::res://Scripts/climbing.gd
+kill_zone.tscn::PackedScene::1937779223070726068::1732799925::0::1::::<><>::res://Scripts/kill_zone.gd
+moving_platform.tscn::PackedScene::7052582654666347053::1732552383::0::1::::<><>::uid://42qtym42cpty::::res://Sprites/magma.png
 moving_trap.tscn::PackedScene::3563726513056323925::1732298857::0::1::::<><>::res://Scripts/kill_zone.gd<>uid://jabost5mul7::::res://Sprites/Thorn1.png
 platform.tscn::PackedScene::5207961299582334232::1732279198::0::1::::<><>::uid://dmjdhaofuh8h6::::res://Sprites/platform.png
 player.tscn::PackedScene::8702743779000228637::1732297277::0::1::::<><>::res://Scripts/player.gd<>uid://dk7arnipnghp::::res://Sprites/character-Sheet.png
-::res://Scripts/::1732298853
-climbing.gd::GDScript::-1::1732297648::0::1::::<>Area2D<>::
+rotary_saw.tscn::PackedScene::5624668970555201008::1732341596::0::1::::<><>::res://Scripts/kill_zone.gd<>uid://bxj3s0v5rtp8v::::res://Sprites/RotarySaw.png
+::res://Scripts/::1732341982
+climbing.gd::GDScript::-1::1732341982::0::1::::<>Area2D<>::
 GlobalVariables.gd::GDScript::-1::1732212652::0::1::::<>Node<>::
 jumper.gd::GDScript::-1::1731939788::0::1::::<>Sprite2D<>::
 jumper_area.gd::GDScript::-1::1731939788::0::1::::<>Area2D<>::
-kill_zone.gd::GDScript::-1::1732298853::0::1::::<>Area2D<>::
+kill_zone.gd::GDScript::-1::1732340588::0::1::::<>Area2D<>::
 player.gd::GDScript::-1::1732297530::0::1::::<>CharacterBody2D<>::
-::res://Sprites/::1732278709
-background.png::CompressedTexture2D::7884200632019779674::1731939788::1732278709::1::::<><>::
-character-Sheet.png::CompressedTexture2D::233154165586678189::1731939788::1731947562::1::::<><>::
-flag_animation.png::CompressedTexture2D::2928180945500103040::1731939788::1731947562::1::::<><>::
-grass.png::CompressedTexture2D::1434217600491772076::1731939788::1731947562::1::::<><>::
-iceBackground.png::CompressedTexture2D::5677581177383174193::1731950428::1731950497::1::::<><>::
-icon.svg::CompressedTexture2D::8408157587874497773::1731939788::1731947562::1::::<><>::
-Jumper.png::CompressedTexture2D::1333692179868611839::1731939788::1731947562::1::::<><>::
-kristal.png::CompressedTexture2D::7981581904439177991::1732278459::1732278709::1::::<><>::
-magma.png::CompressedTexture2D::7649242759956093248::1732215582::1732215687::1::::<><>::
-platform.png::CompressedTexture2D::8020302247939342633::1732276260::1732276321::1::::<><>::
-RotarySaw.png::CompressedTexture2D::4021077054153325019::1731939788::1731947562::1::::<><>::
-taslarr.png::CompressedTexture2D::6011702226819634530::1731939788::1731947562::1::::<><>::
-Thorn1.png::CompressedTexture2D::18581949617682694::1731939788::1731947562::1::::<><>::
-traps.png::CompressedTexture2D::4232518840223700849::1731939788::1731947562::1::::<><>::
+::res://Sprites/::1732800046
+background.png::CompressedTexture2D::5115823322096733794::1731939788::1732547253::1::::<><>::
+character-Sheet.png::CompressedTexture2D::9077891277686347469::1731939788::1732547253::1::::<><>::
+decorations3.png::CompressedTexture2D::629044511320239454::1732546694::1732547253::1::::<><>::
+flag_animation.png::CompressedTexture2D::2433751309155730251::1731939788::1732547253::1::::<><>::
+grass.png::CompressedTexture2D::6113904643738158465::1731939788::1732547253::1::::<><>::
+iceBackground.png::CompressedTexture2D::2211250014227737283::1731950428::1732547253::1::::<><>::
+icon.svg::CompressedTexture2D::5105518724843230317::1731939788::1732547253::1::::<><>::
+Jumper.png::CompressedTexture2D::2012834660089910188::1731939788::1732547253::1::::<><>::
+kristal.png::CompressedTexture2D::7909379696289822424::1732278459::1732800063::1::::<><>::
+magma.png::CompressedTexture2D::2092221347282870970::1732547734::1732547735::1::::<><>::
+Magma_Background.png::CompressedTexture2D::6147385085543957665::1732547239::1732547253::1::::<><>::
+platform.png::CompressedTexture2D::8221819886056809222::1732276260::1732547253::1::::<><>::
+RotarySaw.png::CompressedTexture2D::3471319507860461042::1731939788::1732547253::1::::<><>::
+taslarr.png::CompressedTexture2D::9056694142634571269::1731939788::1732547253::1::::<><>::
+Thorn1.png::CompressedTexture2D::64265889780504490::1731939788::1732547253::1::::<><>::
+traps.png::CompressedTexture2D::4482564095259088573::1731939788::1732547253::1::::<><>::

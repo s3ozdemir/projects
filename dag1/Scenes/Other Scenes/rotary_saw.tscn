@@ -1,0 +1,61 @@
+[gd_scene load_steps=7 format=3 uid="uid://cmevqgpn7fi3q"]
+
+[ext_resource type="Script" path="res://Scripts/kill_zone.gd" id="1_1olxg"]
+[ext_resource type="Texture2D" uid="uid://bxj3s0v5rtp8v" path="res://Sprites/RotarySaw.png" id="2_3us0a"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_j00sc"]
+radius = 15.0333
+
+[sub_resource type="Animation" id="Animation_vfw25"]
+resource_name = "new_animation"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 6.28319]
+}
+
+[sub_resource type="Animation" id="Animation_xsk37"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_4ywyl"]
+_data = {
+"RESET": SubResource("Animation_xsk37"),
+"new_animation": SubResource("Animation_vfw25")
+}
+
+[node name="Rotary_saw" type="Area2D"]
+script = ExtResource("1_1olxg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_j00sc")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_3us0a")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_4ywyl")
+}
+autoplay = "new_animation"
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

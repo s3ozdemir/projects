@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://c7qlag37v28s4"]
+
+[ext_resource type="Texture2D" uid="uid://42qtym42cpty" path="res://Sprites/magma.png" id="1_k6g1d"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6clrj"]
+size = Vector2(50, 16)
+
+[node name="moving_platform" type="AnimatableBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_k6g1d")
+region_enabled = true
+region_rect = Rect2(80, 0, 48, 16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_6clrj")

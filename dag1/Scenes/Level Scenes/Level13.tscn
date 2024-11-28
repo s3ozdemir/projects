@@ -1,0 +1,102 @@
+[gd_scene load_steps=12 format=3 uid="uid://boby4btlesmlb"]
+
+[ext_resource type="Texture2D" uid="uid://42qtym42cpty" path="res://Sprites/magma.png" id="1_qicoi"]
+[ext_resource type="Texture2D" uid="uid://ctt3sfs1l0s6d" path="res://Sprites/Magma_Background.png" id="2_2s6x3"]
+[ext_resource type="Texture2D" uid="uid://b44nf8fhfnhy0" path="res://Sprites/traps.png" id="3_7e7rg"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_achwh"]
+texture = ExtResource("1_qicoi")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_2sujl"]
+sources/0 = SubResource("TileSetAtlasSource_achwh")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mu2gv"]
+texture = ExtResource("1_qicoi")
+10:1/0 = 0
+10:2/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+11:3/0 = 0
+9:4/0 = 0
+10:4/0 = 0
+11:4/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_tyre7"]
+sources/0 = SubResource("TileSetAtlasSource_mu2gv")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_own3y"]
+texture = ExtResource("2_2s6x3")
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_wgpo1"]
+sources/1 = SubResource("TileSetAtlasSource_own3y")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_smpl6"]
+texture = ExtResource("3_7e7rg")
+0:0/0 = 0
+2:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_3uyib"]
+sources/0 = SubResource("TileSetAtlasSource_smpl6")
+
+[node name="Level13" type="Node2D"]
+
+[node name="MainTiles" type="Node2D" parent="."]
+
+[node name="Blocks" type="TileMapLayer" parent="MainTiles"]
+tile_set = SubResource("TileSet_2sujl")
+
+[node name="Decorations" type="TileMapLayer" parent="MainTiles"]
+z_index = 5
+tile_set = SubResource("TileSet_tyre7")
+
+[node name="Background" type="TileMapLayer" parent="MainTiles"]
+z_index = -1
+tile_set = SubResource("TileSet_wgpo1")
+
+[node name="Traps" type="TileMapLayer" parent="MainTiles"]
+z_index = 6
+tile_set = SubResource("TileSet_3uyib")
